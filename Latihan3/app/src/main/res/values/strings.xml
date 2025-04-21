@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Latihan3</string>
+    <string name="textView_Main_Desc1">
+        DANBO adalah kependekan dari Danboard, Danbo sebenarnya diambil dari bahasa jepang
+        “danboru”, yang berarti kardus.
+    </string>
+    <string name="textView_Main_Desc2">
+        Danboard atau sering disebut Danbo adalah tokoh fiksi dari sebuah manga yang
+        berjudul Yotsuba oleh Azuma Kiyohiko.
+    </string>
+    <string name="textView_Main_Header">Sejarah Danboo</string>
+    <string name="imageView_Main_Header">Picture</string>
+    <string name="button_Main_Submit">Submit</string>
 </resources>
