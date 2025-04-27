@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Latihan4</string>
+    <string name="textView_Main_Judul">Pengenalan Toast</string>
+    <string name="button_Main_Btn1">Click Me!</string>
+    <string name="button_Main_Btn2">Submit</string>
+    <string name="editText_Main_Nama">Masukan Nama</string>
+</resources>
