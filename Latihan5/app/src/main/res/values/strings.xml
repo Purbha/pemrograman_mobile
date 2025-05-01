@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Latihan5</string>
+    <string name="imageView_Main_Photo">Photo Almaira</string>
+    <string name="textView_Main_Header">My Beautiful Daughter</string>
+    <string name="textView_Main_Nama">Almaira Hasna</string>
+    <string name="textView_Main_Umur">Umur 10 Tahun</string>
+    <string name="button_Main_Go">Ke Activity Dua</string>
+    <string name="textView_Main2_Nama">Inara Ahya</string>
+    <string name="imageView_Main2_Photo">Photo Inara</string>
+    <string name="textView_Main2_Umur">Umur 8 Tahun</string>
+    <string name="button_Main2_Back">Kembali</string>
 </resources>

@@ -6,4 +6,33 @@
     </style>
 
     <style name="Theme.Latihan5" parent="Base.Theme.Latihan5" />
+
+    <style name="textView_Header" parent="Base.Theme.Latihan5">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/DarkMagenta</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textView_Nama" parent="Base.Theme.Latihan5">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/DarkMagenta</item>
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="textView_Umur" parent="Base.Theme.Latihan5">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/DarkMagenta</item>
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="button_Main" parent="Base.Theme.Latihan5">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
 </resources>
