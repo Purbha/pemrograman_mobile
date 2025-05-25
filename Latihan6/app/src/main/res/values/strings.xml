@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Latihan6</string>
+    <string name="textView_Main_Judul">Program Menghitung Persegi</string>
+    <string name="textView_Main_Panjang">Panjang</string>
+    <string name="editText_Main_Panjang">Masukan Panjang</string>
+    <string name="textView_Main_Lebar">Lebar</string>
+    <string name="editText_Main_Lebar">Masukan Lebar</string>
+    <string name="button_Main_Hitung">Hitung!!</string>
+    <string name="textView_Main_Hasil">Hasilnya</string>
+</resources>
