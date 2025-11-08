@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView_Main_Judul"
+        style="@style/textView_Judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/textView_Judul"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_Main_Alas"
+        style="@style/textView_Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textView_Main_Alas"
+        app:layout_constraintStart_toEndOf="@+id/imageView_Main_Logo"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Main_Judul" />
+
+    <EditText
+        android:id="@+id/editText_Main_Alas"
+        style="@style/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="@string/editText_Main_Alas"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/imageView_Main_Logo"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Main_Alas" />
+
+    <TextView
+        android:id="@+id/textView_Main_Tinggi"
+        style="@style/textView_Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/textView_Main_Tinggi"
+        app:layout_constraintStart_toEndOf="@+id/imageView_Main_Logo"
+        app:layout_constraintTop_toBottomOf="@+id/editText_Main_Alas" />
+
+    <ImageView
+        android:id="@+id/imageView_Main_Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/imageView_Logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Main_Judul"
+        app:srcCompat="@drawable/triangle" />
+
+    <EditText
+        android:id="@+id/editText_Main_Tinggi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="@string/editText_Main_Tinggi"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        style="@style/editText"
+        app:layout_constraintStart_toEndOf="@+id/imageView_Main_Logo"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Main_Tinggi" />
+
+    <Button
+        android:id="@+id/button_Main_Hitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/button_Main_Hitung"
+        style="@style/button"
+        app:layout_constraintStart_toEndOf="@+id/imageView_Main_Logo"
+        app:layout_constraintTop_toBottomOf="@+id/editText_Main_Tinggi" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

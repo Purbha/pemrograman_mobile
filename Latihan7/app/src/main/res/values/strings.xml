@@ -1,0 +1,14 @@
+<resources>
+    <!--GENERAL-->
+    <string name="app_name">Latihan7</string>
+    <string name="imageView_Logo">Logo Segitiga</string>
+    <string name="textView_Judul">Program Menghitung Segitiga</string>
+    <!--MAIN-->
+    <string name="textView_Main_Alas">Alas</string>
+    <string name="editText_Main_Alas">Masukan Alas</string>
+    <string name="textView_Main_Tinggi">Tinggi</string>
+    <string name="editText_Main_Tinggi">Masukan Tinggi</string>
+    <string name="button_Main_Hitung">Hitung Luas</string>
+    <!--LUAS-->
+    <string name="textView_Luas_Hasil">Luas Segitiga</string>
+</resources>

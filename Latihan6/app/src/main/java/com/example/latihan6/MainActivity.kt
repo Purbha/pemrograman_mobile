@@ -31,11 +31,6 @@ class MainActivity : AppCompatActivity() {
         }
         initiate_Object()
         Listen_bHitung()
-        if(savedInstanceState != null) {
-            val result = savedInstanceState.getString(STATE_RESULT).toString()
-            Log.d("CEK savedInstanceState",result)
-            tHasil.text = savedInstanceState.getString(STATE_RESULT)
-        }
     }
 
     fun initiate_Object() {
@@ -70,6 +65,14 @@ class MainActivity : AppCompatActivity() {
         val result = tHasil.text.toString()
         Log.d("CEK onSaveInstanceState",result)
         outState.putString(STATE_RESULT,result)
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        super.onRestoreInstanceState(savedInstanceState)
+        val result = savedInstanceState.getString(STATE_RESULT).toString()
+        Log.d("CEK savedInstanceState",result)
+        tHasil.text = savedInstanceState.getString(STATE_RESULT)
+
     }
 
 }
