@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView_Main_Banner"
+        android:layout_width="75dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/imageView_Banner"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/textView_Main_Judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/textView_Judul"
+        style="@style/textView_Judul"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView_Main_Banner"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_Main_Nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textView_Main_Nama"
+        style="@style/textView_Label"
+        app:layout_constraintStart_toEndOf="@+id/imageView_Main_Banner"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Main_Judul" />
+
+    <EditText
+        android:id="@+id/editText_Main_Nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="text"
+        style="@style/editText"
+        android:hint="@string/editText_Main_Nama"
+        android:importantForAutofill="no"
+        app:layout_constraintStart_toEndOf="@+id/imageView_Main_Banner"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Main_Nama" />
+
+    <TextView
+        android:id="@+id/textView_Main_Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/textView_Main_Email"
+        style="@style/textView_Label"
+        app:layout_constraintStart_toEndOf="@+id/imageView_Main_Banner"
+        app:layout_constraintTop_toBottomOf="@+id/editText_Main_Nama" />
+
+    <EditText
+        android:id="@+id/editText_Main_Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="@string/editText_Main_Email"
+        android:inputType="textEmailAddress"
+        style="@style/editText"
+        android:importantForAutofill="no"
+        app:layout_constraintStart_toEndOf="@+id/imageView_Main_Banner"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Main_Email" />
+
+    <TextView
+        android:id="@+id/textView_Main_Makanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/textView_Main_Makanan"
+        style="@style/textView_Label"
+        app:layout_constraintStart_toEndOf="@+id/imageView_Main_Banner"
+        app:layout_constraintTop_toBottomOf="@+id/editText_Main_Email" />
+
+    <RadioGroup
+        android:id="@+id/RG_Main_Makanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView_Main_Banner"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Main_Makanan">
+
+        <RadioButton
+            android:id="@+id/RB_Main_Rendang"
+            style="@style/RB_Label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/RB_Main_Rendang" />
+
+        <RadioButton
+            android:id="@+id/RB_Main_Sushi"
+            style="@style/RB_Label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/RB_Main_Sushi" />
+
+        <RadioButton
+            android:id="@+id/RB_Main_Ramen"
+            style="@style/RB_Label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/RB_Main_Ramen" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_Main_Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/button_Main_Submit"
+        style="@style/button"
+        app:layout_constraintStart_toEndOf="@+id/imageView_Main_Banner"
+        app:layout_constraintTop_toBottomOf="@+id/RG_Main_Makanan" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

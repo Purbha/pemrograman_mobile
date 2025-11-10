@@ -1,0 +1,18 @@
+<resources>
+    <!--GENERAL-->
+    <string name="app_name">Latihan8</string>
+    <string name="imageView_Banner">Banner Apps</string>
+    <string name="textView_Judul">Program Biodataku</string>
+    <!--MAIN-->
+    <string name="textView_Main_Nama">Masukan Nama</string>
+    <string name="editText_Main_Nama">Nama</string>
+    <string name="textView_Main_Email">Masukan Email</string>
+    <string name="editText_Main_Email">Email</string>
+    <string name="textView_Main_Makanan">Makanan Favourite</string>
+    <string name="RB_Main_Rendang">Rendang</string>
+    <string name="RB_Main_Sushi">Sushi</string>
+    <string name="RB_Main_Ramen">Ramen</string>
+    <string name="button_Main_Submit">Submit Form</string>
+    <!--HASIL-->
+    <string name="textView_Hasil_Dummy">XXXXX XXXXX XXXXX XXXXX</string>
+</resources>
