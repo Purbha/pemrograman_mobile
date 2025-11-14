@@ -1,0 +1,18 @@
+<resources>
+    <!--GENERAL-->
+    <string name="app_name">Latihan9</string>
+    <string name="imageView_Banner">Banner Apps</string>
+    <string name="textView_Judul">Game Favorite</string>
+    <!--MAIN-->
+    <string name="textView_Main_Game">---Pilih Game---</string>
+    <string name="checkBox_Main_Game1">DOTA</string>
+    <string name="checkBox_Main_Game2">MLBB</string>
+    <string name="checkBox_Main_Game3">VALORANT</string>
+    <string name="textView_Main_Nama">---Masukan Nama---</string>
+    <string name="editText_Main_Nama">Nama</string>
+    <string name="button_Main_Submit">Submit</string>
+    <string name="button_Main_Exit">Exit</string>
+    <!--HASIL-->
+    <string name="textView_Hasil_Dummy">XXXXX XXXXX XXXXX XXXXX</string>
+    <string name="button_Hasil_Back">Kembali</string>
+</resources>

@@ -90,6 +90,7 @@ class MainActivity : AppCompatActivity() {
             callHasil.putExtra(EXTRA_EMAIL, strEmail)
             callHasil.putExtra(EXTRA_MAKANAN, strMakanan)
             startActivity(callHasil)
+            Log.d("CEK","Submit Berhasil")
             val pesan = Toast.makeText(this,"Submit Berhasil",
                 Toast.LENGTH_SHORT)
             pesan.show()
